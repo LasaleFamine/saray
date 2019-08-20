@@ -1,5 +1,3 @@
-:warning: **This project is no longer mantained**
-
 <!-- # Saray -->
 
 ![Saray](saray.png)
@@ -128,10 +126,10 @@ With this parameter Saray can handle a pending call to the endpoint (the one spe
 
 ## Installation & run
 
-You can install Saray with npm or yarn
+You can install Saray with yarn
 
 ```bash
-$ npm install saray
+$ yarn add saray
 ```
 
 If you install Saray globally, then you can simply start Saray with
@@ -147,7 +145,7 @@ Otherwise, in a local installation you can find Saray in your node_modules/.bin 
 Alternatively you can clone this repo, then from the command line run
 
 ```
-$ npm install
+$ yarn
 ```
 
 to install all required dependencies, then you can run
@@ -180,13 +178,18 @@ $ saray --help
 ## Available commands
 
 ```
-$ npm test
+$ yarn test
 ```
 
 Run unit tests and integration tests for Saray.
 
 ```
-$ npm start
+$ yarn start
 ```
 
 Start Saray from command line directly from cloned repository
+
+
+## Credits
+
+This software was gently created by Paolo Ferretti (@pferretti).
