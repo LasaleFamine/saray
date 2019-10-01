@@ -63,7 +63,7 @@ module.exports.timeout = timeout;
 module.exports.endpoint = program.endpoint;
 module.exports.preferApi = program.preferApi;
 
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: '10mb' }));
 app.use(bodyParser.xml({
   type: [
     'text/xml',
